@@ -20,6 +20,9 @@
 -->
 # Release Notes
 
+### 5.0.2 (Aug 17, 2023)
+* (android): remove mitigation strategy for CVE-2020-6506 to allow _blank targets opening
+
 ### 5.0.1 (Aug 16, 2023)
 * [GH-1](https://github.com/jessyef/cordova-plugin-inappbrowser/pull/1) fix(android): allow beforeLoad on every GET request
 * [GH-2](https://github.com/jessyef/cordova-plugin-inappbrowser/pull/2) fix(android): destroy webView to prevent memory leak
