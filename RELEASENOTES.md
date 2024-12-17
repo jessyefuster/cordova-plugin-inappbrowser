@@ -20,6 +20,11 @@
 -->
 # Release Notes
 
+### 6.0.1 (Dec 17, 2023)
+* [GH-1](https://github.com/jessyef/cordova-plugin-inappbrowser/pull/1) fix(android): allow beforeLoad on every GET request
+* [GH-2](https://github.com/jessyef/cordova-plugin-inappbrowser/pull/2) fix(android): destroy webView to prevent memory leak
+* (android): remove mitigation strategy for CVE-2020-6506 to allow _blank targets opening
+
 ### 6.0.0 (Nov 10, 2023)
 * [GH-1033](https://github.com/apache/cordova-plugin-inappbrowser/pull/1033) chore: bump to next major release 6.0.0 & update deependencies
 * [GH-1032](https://github.com/apache/cordova-plugin-inappbrowser/pull/1032) chore(lint): update eslint config and apply fixes
